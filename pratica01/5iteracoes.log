@@ -1,0 +1,64 @@
+script.js:68 
+
+-----ESCOLHENDO LINHAS EM SEQUENCIA-----
+
+script.js:31 
+ÉPOCA 1:
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): NAO
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): NAO
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): SIM
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): NAO
+script.js:58 PESOS    wb: 1 |  w1: 1  |  w2: 0
+script.js:31 
+ÉPOCA 2:
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): SIM
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): NAO
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): NAO
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): NAO
+script.js:58 PESOS    wb: 0 |  w1: 1  |  w2: 0
+script.js:31 
+ÉPOCA 3:
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): NAO
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): NAO
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): NAO
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): NAO
+script.js:58 PESOS    wb: 0 |  w1: 1  |  w2: 0
+script.js:71 
+
+-----ESCOLHENDO LINHAS ALEATORIAMENTE-----
+
+script.js:31 
+ÉPOCA 1:
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): NAO
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): NAO
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): SIM
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): NAO
+script.js:58 PESOS    wb: 1 |  w1: 1  |  w2: 0
+script.js:31 
+ÉPOCA 2:
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): NAO
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): NAO
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): SIM
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): NAO
+script.js:58 PESOS    wb: 0 |  w1: 1  |  w2: -1
+script.js:31 
+ÉPOCA 3:
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): NAO
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): NAO
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): SIM
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): NAO
+script.js:58 PESOS    wb: 1 |  w1: 2  |  w2: 0
+script.js:31 
+ÉPOCA 4:
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): NAO
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): SIM
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): NAO
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): NAO
+script.js:58 PESOS    wb: 0 |  w1: 2  |  w2: -1
+script.js:31 
+ÉPOCA 5:
+script.js:56 Kepler    (bias): 1  |  (n1): 1  |  (n2): 1  |  (erro): NAO
+script.js:56 Beethoven    (bias): 1  |  (n1): 0  |  (n2): 1  |  (erro): NAO
+script.js:56 Bach    (bias): 1  |  (n1): 0  |  (n2): 0  |  (erro): NAO
+script.js:56 Einstein    (bias): 1  |  (n1): 1  |  (n2): 0  |  (erro): NAO
+script.js:58 PESOS    wb: 0 |  w1: 2  |  w2: -1

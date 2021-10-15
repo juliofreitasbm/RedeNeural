@@ -1,0 +1,118 @@
+​ 
+
+-----ESCOLHENDO LINHAS EM SEQUENCIA-----
+
+​ 
+ÉPOCA 1:
+​ Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+​ Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): SIM
+​ Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+​ Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+​ Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+​ Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+​ PESOS    wb: 0 |  w_virus: 1  |  w_bacteria: -1  |  w_cabeca: 1  |  w_corisa: 0
+​ 
+ÉPOCA 2:
+​ Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+​ Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:72 PESOS    wb: 0 |  w_virus: 1  |  w_bacteria: -1  |  w_cabeca: 1  |  w_corisa: 0
+script.js:80 
+
+-----TABELA APLICADA-----
+
+script.js:83 Pessoa1    saida: 1
+script.js:83 Pessoa2    saida: 1
+script.js:83 Pessoa3    saida: 0
+script.js:83 Pessoa4    saida: 0
+script.js:83 Pessoa5    saida: 1
+script.js:83 Pessoa6    saida: 0
+script.js:93 
+
+-----ESCOLHENDO LINHAS ALEATORIAMENTE-----
+
+script.js:43 
+ÉPOCA 1:
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:72 PESOS    wb: 0 |  w_virus: 1  |  w_bacteria: 0  |  w_cabeca: 1  |  w_corisa: 0
+script.js:43 
+ÉPOCA 2:
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): SIM
+script.js:72 PESOS    wb: 0 |  w_virus: 2  |  w_bacteria: -1  |  w_cabeca: 1  |  w_corisa: -1
+script.js:43 
+ÉPOCA 3:
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:72 PESOS    wb: 1 |  w_virus: 2  |  w_bacteria: -1  |  w_cabeca: 2  |  w_corisa: 0
+script.js:43 
+ÉPOCA 4:
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+script.js:72 PESOS    wb: 1 |  w_virus: 2  |  w_bacteria: -2  |  w_cabeca: 2  |  w_corisa: 0
+script.js:43 
+ÉPOCA 5:
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:72 PESOS    wb: 0 |  w_virus: 2  |  w_bacteria: -3  |  w_cabeca: 1  |  w_corisa: -1
+script.js:43 
+ÉPOCA 6:
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:72 PESOS    wb: 1 |  w_virus: 2  |  w_bacteria: -3  |  w_cabeca: 2  |  w_corisa: 0
+script.js:43 
+ÉPOCA 7:
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): SIM
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:72 PESOS    wb: 0 |  w_virus: 2  |  w_bacteria: -3  |  w_cabeca: 2  |  w_corisa: -1
+script.js:43 
+ÉPOCA 8:
+script.js:70 Pessoa2    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa1    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa4    (bias): 1  |  (virus): 0  |  (bacteria): 1  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa6    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 0  |  (corisa): 1  |  (erro): NAO
+script.js:70 Pessoa3    (bias): 1  |  (virus): 1  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 0  |  (erro): NAO
+script.js:70 Pessoa5    (bias): 1  |  (virus): 0  |  (bacteria): 0  |  (dor cabeca): 1  |  (corisa): 1  |  (erro): NAO
+script.js:72 PESOS    wb: 0 |  w_virus: 2  |  w_bacteria: -3  |  w_cabeca: 2  |  w_corisa: -1
+script.js:80 
+
+-----TABELA APLICADA-----
+
+script.js:83 Pessoa1    saida: 0
+script.js:83 Pessoa2    saida: 1
+script.js:83 Pessoa3    saida: 0
+script.js:83 Pessoa4    saida: 0
+script.js:83 Pessoa5    saida: 1
+script.js:83 Pessoa6    saida: 0

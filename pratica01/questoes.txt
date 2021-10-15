@@ -1,0 +1,9 @@
+PRATICA 01:
+
+Questao01: O programa de treinamento funciona sempre ou depende da sequencia de valores informados durante o treinamento?
+
+	O programa de treinamento funciona de forma diferente dependendo da sequencia de valores informados no treinamento. Quando ele funciona sequencialmente sempre obtemos os pesos wb: 0, w1: 1,  w2: 0 depois de 3 épocas, mas selecionando as linhas da tabela aleatoriamente a quantidade épocas e os pesos finais variam.
+
+Questao02: Qual o numero maximo de interacoes de interacoes para corrigir os pesos:
+
+	O número máximo de iterações para corrigir os pesos é 5. Após sucessivos testes foi o maior valor encontrado.

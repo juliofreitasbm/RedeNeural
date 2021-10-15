@@ -1,0 +1,21 @@
+PRATICA 02:
+
+Questao01: Quantas iterações são necessárias para encontrar os pesos corretos da base de treinamento?
+
+	Selecionando as linhas da tabela sequencialmente são necessárias 2 iterações apenas, mas selecionando aleatoriamente foi possível encontrar soluções com até 8 iterações.
+
+Questao02: Qual é o resultado para outros valores? (tabela de aplicação)
+
+	Treinamento com Selecao sequencial:
+	Pessoa1    saida: 1
+	Pessoa2    saida: 1
+	Pessoa3    saida: 0
+	Pessoa4    saida: 0
+	Pessoa5    saida: 1
+	Pessoa6    saida: 0
+
+	Treinamento com Selecao aleatoria: resultado varia
+
+Questao03: O programa parece ter alguma inteligencia? Como ele se comporta?
+
+	O programa possui inteligencia, pois é capaz de aprender. Para esse caso ele possui poucos dados para treinar os pesos, mas com uma base de dados extensa e bem direcionada para o problema que se quer resolver ele pode aprender e ser capaz de prever resultados futuros.
